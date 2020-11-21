@@ -13,7 +13,7 @@
         {
       "type": "file",
          "source": "files/welcome.txt",
-          "destination": "/tmp"
+          "destination": "/tmp/"
            },
         {
       "type": "shell",
