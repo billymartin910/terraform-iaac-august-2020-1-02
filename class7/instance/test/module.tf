@@ -2,9 +2,9 @@ module "db" {
 	source = "../"
 	region = "us-east-2"
 	subnet_ids = [
-		"subnet-09e046e79485b9194", 
-		"subnet-0d27bd3f9c6a10988", 
-		"subnet-0533f931432ff4966"
+		"subnet-01d3f937459ae67f1", 
+		"subnet-0188516414b625e89", 
+		"subnet-0fe21855787f45b0a"
 	]
 	security_group_name = "db"
 	allowed_hosts = [
